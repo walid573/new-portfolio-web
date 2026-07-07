@@ -255,6 +255,59 @@ nav ul li a{
    grid-area: six; 
 
 }
+/* my-resume style */
+    .my-resume-parent{
+        margin-bottom: 130px;
+    }
+    .my-resume-parent-h2{
+        text-align: center;
+        padding: 50px 0px;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .my-resume-div-parent{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .my-resume-left{
+        max-width: 490px;
+        padding: 20px 10px;
+        
+    }
+    .my-resume-div-parent h2{
+        text-align: start;
+        padding: 30px 0px;
+        font-size: 30px;
+        font-weight: 700;
+        color: #332F21;
+    }
+    .my-resume-div-parent h3{
+        text-align: start;
+        padding: 10px 0px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #332F21;
+    }
+    .my-resume-div-parent hr{
+        margin: 20px 0px;
+    }
+    
+   
+
+    .my-resume-p{
+        color:#757575;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 0px 0px 20px 0px;
+    }
+    .my-resume-p-2{
+        color: #757575;
+        font-weight: 400;
+        font-size: 16px;
+        padding: 10px 0px;
+        line-height: 28px
+    }
+
 
 /* footer style */
 footer{
