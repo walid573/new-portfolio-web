@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+    
+}
+img{
+    max-width: 100%;
+}
+/* Common styles */
+
+.btn{
+    padding: 10px 18px;
+    border: none;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.btn-second{
+    padding: 10px 30px;
+    border: 1px solid #FD6E0A;
+    background-color: transparent;
+    color: #FD6E0A;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.black-3{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 47px 0px;
+    padding: 12px 0px;
+    
+    
+}
+.logo{
+    font-weight: 800;
+    font-size: 2rem;
+
+}
+.logo-color{
+    color: #FD6E0A;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration:none; 
+    color: #332F21;
+}
+
+
+/* hero section styles */
+.hero-bg{
+    background-color:#fff8f3FF;
+    margin-bottom:130px;
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 163px;
+
+    
+}
+.leftp{
+    font-size: 45px;
+    color: #332F21;
+}
+.left-section h2{
+    font-size: 85px;
+    font-weight: 700;
+}
+.margin{
+    margin-top: 30px;
+    
+}
+.margin button{
+    margin-right: 10px;
+}
+
+/* About section styles */
+.about-me-section-parent{
+    margin-bottom: 130px;
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff8f3FF;
+    padding: 100px 150px;
+}
+
+.about-parent{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.childs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-me h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.about-me-p{
+    font-size: 18px;
+    text-align: center;
+    color:#757575;
+    padding: 20px 0px;
+}
+
+.childs-p{
+    font-size: 20px;
+    color:#757575;
+}
+.childs-p-2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* What to do section */
+.wtd-section{
+    margin-bottom: 130px;
+}
+.wtd-parent{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.wtd-parent h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.wtd-parent p{
+    max-width: 910px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.wtd-childens-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wtd-childs{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px 27px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.wtd-childs:hover{
+    
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+.wtd-childs h2{
+    font-size:20px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+.wtd-childs p{
+    font-size: 16px;
+    color: #757575;
+    max-width: 220px;
+    margin-top: 10px;
+    line-height: 28px;
+    
+}
+/* my amazing work section */
+
+.my-amazing-work{
+    text-align: center;
+    margin-bottom: 150px;
+
+}
+.my-amazing-work h2{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 26px 0;
+}
+.gallery{
+    margin-top: 20px;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    grid-auto-columns: 50px;
+    grid-template-areas: 
+    "one two three"
+    "one two three"
+    "one two six"
+    "four two six"
+    "four five six"
+    "four five six"
+    "four five six"
+    
+}
+.gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-1{
+    grid-area: one;
+}
+.box-2{
+   grid-area: two; 
+}
+.box-3{
+   grid-area: three; 
+
+}
+.box-4{
+   grid-area: four; 
+
+}
+.box-5{
+   grid-area: five; 
+
+}
+.box-6{
+   grid-area: six; 
+
+}
+
+/* footer style */
+footer{
+    height: 600px;
+    background-color: #fff8f3FF;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+    padding-top:100px ;
+    gap: 20px;
+}
+.footer-left{
+    max-width: 500px;
+}
+
+.footer-left p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    padding: 8px;
+}
+.footer-left h2{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+.footer-icons{
+    display: flex;
+    gap: 10px;
+}
+.footer-right{
+    max-width: 100%;
+}
+
+.footer-right h2{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 20px 0px;
+    
+   
+    
+}
+.footer-right form{
+    
+    line-height: 20px;
+}
+.footer-right form input, textarea{
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 400px;
+    height: 100%;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border: 8px;
+    display: block;
+    
+}
+
+footer form button{
+    padding: 20px 0px;
+}
+
